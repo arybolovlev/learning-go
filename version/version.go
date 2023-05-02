@@ -1,3 +1,7 @@
 package version
 
-var Version = "development"
+var version = "development"
+
+func Version() string {
+	return version
+}
